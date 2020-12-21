@@ -1,3 +1,6 @@
+# set up your ssh key (will go into C:\Users\username/.ssh/id_rsa.pub)
+ssh-keygen
+
 # copy files from your computer to the google server
 # scp filename user@external_ip_address:  
 # example:
