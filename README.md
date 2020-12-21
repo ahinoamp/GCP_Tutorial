@@ -5,4 +5,6 @@ These are the materials for a tutorial on using Google Cloud for running many py
 This tutorial is ideal for:
 - people who have a time-consuming python code that they need to run for many different input variables (for example for stochastic modeling/optimization).
 
+![tutorial_image](/tutorial_image.png)
+
 Post an issue if you have any questions and I'll try to answer promptly. 
