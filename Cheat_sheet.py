@@ -10,7 +10,7 @@ scp cloud_setup_tutorial ahino@34.72.21.219:
 scp ahino@34.72.21.219:filename.txt .
 
 #let your files run without stopping when you go to sleep and the terminal dies
-nohup python ThreadMasterCombo.py &
+nohup python multi_thread_problem.py &
 
 # make a folder
 mkdir foldername
