@@ -23,7 +23,7 @@ def very_long_func(input_dictionary):
     # do the calculation    
     calc = [x*y*z]
     
-    # save to a file numbered by the thread
+    # save to a file numbered by the run_n
     fname=folder+'run_'+str(i)+'.txt'
     np.savetxt(fname, calc)
     

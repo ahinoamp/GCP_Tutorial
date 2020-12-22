@@ -41,7 +41,10 @@ class Predictor(multiprocessing.Process):
 
 if __name__ == "__main__":
       
-  
+    ##############################################
+	## Change code below
+	##############################################
+
     # decide on the number of tasks
     num_runs =  20
     num_cpus = 2
@@ -67,6 +70,10 @@ if __name__ == "__main__":
     # save to file for your records
     input_data = pd.DataFrame({'x': x, 'y':y, 'z': z})
     input_data.to_csv('input_data.csv')
+
+    ##############################################
+	## Change code above
+	##############################################
     
     # create num_cpus process objects and connect to an input and output que
     # the process will take tasks out of the input que and put results 
